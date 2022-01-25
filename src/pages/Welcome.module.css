@@ -13,7 +13,9 @@
   transform: translate(-50%, -50%);
 }
 .start {
-  width: 300px;
+  width: 100%;
+  padding-left: 100px;
+  padding-right: 100px;
   font-weight: 900;
   font-size: 30px;
   height: 100px;
