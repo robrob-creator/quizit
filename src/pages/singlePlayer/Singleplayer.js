@@ -3,6 +3,8 @@ import { Button } from "antd";
 import { Link } from "react-router-dom";
 import classes from "./singleEasy.module.css";
 import image from "../../assets/images/future.gif";
+import { PlayCircleOutlined } from "@ant-design/icons";
+
 function Singleplayer() {
   return (
     <div

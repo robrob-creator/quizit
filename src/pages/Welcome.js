@@ -29,7 +29,7 @@ function Welcome() {
             ghost
           >
             <Link to="/single-player" style={{ color: "inherit" }}>
-              Primary
+              Play
             </Link>
           </Button>
         </div>
