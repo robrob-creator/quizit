@@ -21,17 +21,17 @@ function Welcome() {
       {" "}
       <div class={classes.container}>
         <div class={classes.center}>
+        <Link to="/single-player" style={{ color: "inherit" }}>
           <Button
             icon={<PlayCircleOutlined />}
             className={classes.start}
             type="default"
             style={{ alignItems: "center", justifyContent: "center" }}
             ghost
-          >
-            <Link to="/single-player" style={{ color: "inherit" }}>
+          >    
               Play
-            </Link>
           </Button>
+          </Link>
         </div>
       </div>
     </div>
